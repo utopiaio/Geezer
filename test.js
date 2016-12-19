@@ -5,7 +5,7 @@ const test = require('tape');
 const geez = require('./geez');
 
 test('Running Geezify', (t) => {
-  t.plan(59);
+  t.plan(65);
 
   t.equal(geez('1'), '፩', '፩');
   t.equal(geez('10'), '፲', '፲');
@@ -66,4 +66,12 @@ test('Running Geezify', (t) => {
   t.equal(geez('3030303'), '፫፻፫፼፫፻፫', '፫፻፫፼፫፻፫');
   t.equal(geez('303030303'), '፫፼፫፻፫፼፫፻፫', '፫፼፫፻፫፼፫፻፫');
   t.equal(geez('333333333'), '፫፼፴፫፻፴፫፼፴፫፻፴፫', '፫፼፴፫፻፴፫፼፴፫፻፴፫');
+  t.equal(geez(333333333), '፫፼፴፫፻፴፫፼፴፫፻፴፫', '፫፼፴፫፻፴፫፼፴፫፻፴፫');
+
+  // [Invalid]
+  t.equal(geez('3.3'), '3.3', '3.3');
+  t.equal(geez('NaN'), 'NaN', 'NaN');
+  t.equal(geez('0'), '0', '0');
+  t.equal(geez(undefined), undefined, 'Undefined');
+  t.equal(geez(null), null, 'Null');
 });

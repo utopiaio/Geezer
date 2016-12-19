@@ -1,4 +1,4 @@
-# Geezer
+# Geezer [![Build Status](https://travis-ci.org/moe-szyslak/Geezer.svg?branch=master)](https://travis-ci.org/moe-szyslak/Geezer)
 
 Converts Arabic numerals to Geez.
 
@@ -17,4 +17,4 @@ geezer('Invalid'); // 'Invalid'
 ```
 
 ### Notes
-As with Geez numbers zero and decimal numbers are not supported. If an invalid number is passed, the number itself is returned.
+As with Geez, zero and decimals are not supported. If an invalid number is passed, the number itself is returned.

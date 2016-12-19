@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/moe-szyslak/Geezer/issues"
   },
-  "homepage": "https://github.com/moe-szyslak/Geezer"
+  "homepage": "https://github.com/moe-szyslak/Geezer",
+  "devDependencies": {
+    "tape": "^4.6.3"
+  }
 }

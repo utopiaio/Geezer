@@ -1,0 +1,25 @@
+{
+  "name": "geezer",
+  "version": "1.0.0",
+  "description": "Converts Arabic numerals to Geez",
+  "main": "geez.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moe-szyslak/Geezer.git"
+  },
+  "keywords": [
+    "geez"
+  ],
+  "author": {
+    "name": "Moe Szyslak",
+    "email": "moe.duffdude@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/moe-szyslak/Geezer/issues"
+  },
+  "homepage": "https://github.com/moe-szyslak/Geezer"
+}

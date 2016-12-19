@@ -9,9 +9,7 @@ module.exports = (num = 1) => {
   let asciiNumber = `${num}`;
 
   // step 1
-  if (asciiNumber.length % 2 !== 0) {
-    asciiNumber = `0${asciiNumber}`;
-  }
+  const asciiNumber = `${String(num).length % 2 === 0 ? '' : '0'}${num}`;
 
   // step 2, 3
   const asciiNumberGrouped = asciiNumber.match(/[\d]{2}/g);

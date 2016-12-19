@@ -5,8 +5,11 @@
  * @param  {Number | String} number
  * @return {String}
  */
-module.exports = (num = 1) => {
-  let asciiNumber = `${num}`;
+module.exports = (num) => {
+  // invalid `num` passed, returning itself...
+  if (`${num}`.search(/^[1-9](\d+)?$/) === -1) {
+    return num;
+  }
 
   // step 1
   const asciiNumber = `${String(num).length % 2 === 0 ? '' : '0'}${num}`;

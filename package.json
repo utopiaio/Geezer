@@ -1,8 +1,8 @@
 {
   "name": "geezer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Converts Arabic numerals to Geez",
-  "main": "geez.js",
+  "main": "geezer.js",
   "scripts": {
     "test": "node test.js"
   },

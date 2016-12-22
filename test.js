@@ -2,7 +2,7 @@
  * these tests are run on geez.js file
  */
 const test = require('tape');
-const geezer = require('./geezer');
+const geezer = require('./index');
 
 test('Running Geezer', (t) => {
   t.plan(65);

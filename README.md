@@ -16,5 +16,5 @@ geezer('0'); // '0'
 geezer('Invalid'); // 'Invalid'
 ```
 
-### Notes
+### Note
 As with Geez, zero and decimals are not supported. If an invalid number is passed, the number itself is returned.

@@ -1,4 +1,4 @@
-# Geezer [![Build Status](https://travis-ci.org/moe-szyslak/Geezer.svg?branch=master)](https://travis-ci.org/moe-szyslak/Geezer)
+# Geezer [![Build Status](https://travis-ci.org/utopiaio/Geezer.svg?branch=master)](https://travis-ci.org/utopiaio/Geezer)
 
 Converts Arabic numerals to Geez.
 
